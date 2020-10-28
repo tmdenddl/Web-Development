@@ -1,34 +1,112 @@
-/* FROM THIS POINT ON ARE GENERAL DEFINITIONS */
+ /* FROM THIS POINT ON ARE GENERAL DEFINITIONS */
 
 body {
   margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
 }
 
 h1{
-  margin-top: 0;
-  padding: 20px;
+  margin: 0;
+  padding: 20 0 0 0;
+  font-size: 50px;
+  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Sacramento', cursive; */
 }
 
-p {
-  padding: 20px;
+h2 {
+  font-family: 'Montserrat', sans-serif;
 }
 
+h3 {
+  font-family: 'Montserrat', sans-serif;
+}
 
 /* FROM THIS POINT ON ARE CLASS DEFINITIONS */
 
 .top-container {
   background-color: #E4F9F5;
-  height: 300px;
+  /* position: relative; */
+  padding-top: 100px;
+}
+
+.middle-container {
   margin: 0;
 }
 
-.mid-container {
-  height: 300px;
+.bottom-container {
+  background-color: #E4F9F5;
+  margin: 0;
+  padding: 0;
 }
 
-.bot-container {
-  background-color: #E4F9F5;
-  height: 300px;
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
 }
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  top: 250px;
+  /* bottom: 300px; */
+}
+
+.mountain {
+  margin-top: 50px;
+}
+
+/* .profile {
+
+} */
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+}
+
+/* .work-experience {
+
+} */
+
+.work-table {
+  margin: auto;
+}
+
+.work-icons {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+}
+
+.skill-row {
+  display: inline-block;
+  width: 250px;
+  margin: 10px;
+}
+
+.icons {
+  width: 100px;
+  height: 100px;
+}
+
+.contact-container {
+  height: 50px;
+}
+
+.linkedin-icon {
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+}
+
+.github-icon {
+  width: 50px;
+  height: 50px;
+  vertical-align: middle;
+}
+
+
 
 /* FROM THIS POINT ON ARE ID DEFINITIONS */

@@ -7,10 +7,11 @@ body {
 }
 
 h1{
-  margin: 0;
-  padding: 20 0 0 0;
-  font-size: 50px;
-  font-family: 'Montserrat', sans-serif;
+  margin: 50px auto 0 auto;
+  /* padding: 20 0 0 0; */
+  color: #11999E;
+  font-size: 60px;
+  font-family: 'Sacramento', cursive;
   /* font-family: 'Sacramento', cursive; */
 }
 
@@ -20,6 +21,10 @@ h2 {
 
 h3 {
   font-family: 'Montserrat', sans-serif;
+}
+
+td {
+  text-align: left;
 }
 
 /* FROM THIS POINT ON ARE CLASS DEFINITIONS */
@@ -49,12 +54,17 @@ h3 {
 .bottom-cloud {
   position: absolute;
   left: 300px;
-  top: 250px;
+  top: 350px;
   /* bottom: 300px; */
 }
 
 .mountain {
   margin-top: 50px;
+}
+
+.heading {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
 }
 
 /* .profile {
@@ -70,8 +80,26 @@ h3 {
 
 } */
 
+/* .experience-row {
+  width: 65%;
+  height: 150px;
+  text-align: left;
+  margin: 20px auto 20px auto;
+}
+
+.experience-icons {
+  width: 100px;
+  height: 100px;
+  float: left;
+  margin-right: 30px;
+} */
+
 .work-table {
   margin: auto;
+}
+
+.icon-row {
+  margin-right: 100px;
 }
 
 .work-icons {

@@ -1,1 +1,1 @@
-TinDog Starting Files
+TinDog Static Webpage

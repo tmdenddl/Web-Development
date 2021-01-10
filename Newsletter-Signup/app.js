@@ -28,7 +28,7 @@ app.post("/", function(req, res) {
     members: [
       {
         email_address: email,
-        status: "Subscribed",
+        status: "subscribed",
         merge_fileds: {
           FNAME: firstName,
           LNAME: lastName
@@ -60,8 +60,6 @@ app.post("/", function(req, res) {
 
   request.write(jsonData);
   request.end();
-
-  console.log(firstName, lastName, email);
 });
 
 app.post("/failure", function(req, res) {
